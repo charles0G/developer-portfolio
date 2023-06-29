@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .charles {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -44,11 +48,33 @@ section {
 }
 
 .pad {
-    padding-right: 5%;
+    padding-right: 15%;
 }
 
 .dream {
     background-image: url(Images/dream\ bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.shadow {
+    width: 40%;
+    box-shadow: 10px 10px 40px orangered;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+#border1 {
+    border-left: 7px solid tomato;
+}
+
+#border2 {
+    border-left: 7px solid rgb(49, 49, 244);
+}
+
+footer p {
+    text-align: center;
 }
